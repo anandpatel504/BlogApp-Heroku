@@ -5,7 +5,7 @@ const Services = new UserService();
 
 // welcome
 router.get('/', async function(req, res, next) {
-    res.send('Welcome user:)');
+    res.send({"Success": "Welcome!, we are happy to see you here :)"});
 });
 
 // create users
